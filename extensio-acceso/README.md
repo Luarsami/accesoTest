@@ -61,4 +61,20 @@ yarn install
 npx expo start
 Escanea el QR con la app de Expo Go en tu celular
 
-para correr los test usa: yarn/npm jest/test despues de yarn/npm install
+✅ Test
+
+En terminal:
+yarn jest ó yarn test
+npm jest ó npm test
+
+📌 Decisiones técnicas
+• Clean Code y separación por responsabilidades en carpetas claras.
+• React Native Paper por velocidad de desarrollo.
+• AsyncStorage por simplicidad de persistencia local.
+• Contexto de red + sincronización modular.
+
+⏱️ Tiempo estimado
+ • Aproximadamente 7 horas de desarrollo completo + pruebas.
+
+⸻
+Autor: Luis Sarria
