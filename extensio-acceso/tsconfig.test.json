@@ -1,0 +1,15 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "types": [
+            "jest",
+            "@testing-library/jest-native"
+        ],
+        "noEmit": true
+    },
+    "include": [
+        "**/*.test.ts",
+        "**/*.test.tsx",
+        "**/__tests__/**/*"
+    ]
+}

@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Extensio Acceso",
+    "slug": "extensio-acceso",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+  "supportsTablet": true,
+  "infoPlist": {
+    "NSCameraUsageDescription": "Necesitamos acceder a la cámara para tomar fotos.",
+    "NSLocationWhenInUseUsageDescription": "Necesitamos acceder a tu ubicación para registrar visitas."
+  }
+}
+,
+    "android": {
+  "permissions": ["CAMERA", "ACCESS_FINE_LOCATION"],
+  "adaptiveIcon": {
+    "foregroundImage": "./assets/adaptive-icon.png",
+    "backgroundColor": "#FFFFFF"
+  }
+},
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": ["expo-image-picker", "expo-location"]
+  }
+}
