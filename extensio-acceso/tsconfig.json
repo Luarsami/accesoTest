@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
+    "module": "nodenext",
     "target": "esnext",
     "lib": [
       "dom",
       "esnext"
     ],
     "jsx": "react",
-    "moduleResolution": "node",
+    "moduleResolution": "nodenext",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
